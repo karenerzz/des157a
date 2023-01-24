@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 1</title>
+</head>
+<body>
+    <h1>Experiment 1</h1>
+    <h2>Capitalizing every other letter: Right click on the screen and select inspect. A panel should appear on the right side of the screen.On the top, click on the console tab to see the function.</h2>
+
+    <script>
+       var text = prompt ("enter a short sentence", "the cat ate a snack.")
+       var holder = ""
+
+       for (var i = 0; i < text.length; i++) {
+            if ((i % 2) == 0) {
+                holder += text[i].toUpperCase();
+            }
+
+            else {
+                holder += text[i].toLowerCase();
+            }
+       }
+       
+       console.log(holder)
+       
+
+    </script>
+    
+</body>
+</html>
