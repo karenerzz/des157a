@@ -39,7 +39,7 @@ header h3 {
 }
 
 
-.front:hover {
+.banner:hover .front {
     width: 0;
     transition-property: width;
     cursor: pointer;
