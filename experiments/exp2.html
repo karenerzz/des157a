@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 2</title>
+</head>
+<body>
+    <script>
+        var question = prompt('what is your favorite color','');
+        var colors = ['blue','red','green','pink','black','brown'];
+        // var i = 0;
+
+        function favColor(color) {
+
+            for (var i=0; i<color.length; i++) {
+                if (question == color[i]){
+                    document.body.style.background = color[i];
+                }
+            }
+        }
+
+        favColor(colors);
+
+        // document.body.style.background = colors[i];
+    </script>
+    
+</body>
+</html>
