@@ -6,6 +6,7 @@ body {
     justify-content: space-around;
     background-color: #FFDCDC;
     overflow: hidden;
+
 }
 
 .column1{
@@ -20,7 +21,6 @@ header h1{
     color: white;
     text-align: center;
     font-size: 6rem;
-    z-index: 1;
     text-shadow: 1px 0px 9px #DECECE;
 }
 
@@ -28,7 +28,6 @@ img {
     position: relative;
     width: 95%;
     bottom: 80px;
-    z-index: 0;
 }
 
 input {
@@ -84,4 +83,38 @@ label {
     font-family: 'Work Sans', sans-serif;
     font-size: 1rem;
     color: white;
+}
+
+.finish:hover {
+    cursor: pointer;
+}
+
+/* madlib results */
+#overlay {
+    position: absolute;
+    background-color: #FFDCDC;
+    top: 0;
+    left:0;
+    width:1200vw;
+    height:750vh
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.showing {
+    visibility: visible;
+    opacity: 1;
+}
+
+.circle {
+    position: absolute;
+    top: 130px;
+    left: 400px;
+    background-color: #FFC9C9;
+    width: 500px;
+    height: 500px;
+    border-radius: 300px;
 }

@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
     <title>Create Your Lotion</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,23 +29,23 @@
             <div class="insideInfo">
                 <h2>develop your formula</h2>
                 <form>
-                    <label>adjective:</label><br>
-                    <input type="text" name="adjective1"><br>
+                    <label for="adjective1">adjective:</label><br>
+                    <input type="text" name="adjective1" id="adjective1"><br>
 
-                    <label>number:</label><br>
-                    <input type="text" name="number"><br>
+                    <label for="number1">number:</label><br>
+                    <input type="text" name="number" id="number1"><br>
 
-                    <label>destination:</label><br>
-                    <input type="text" name="destination"><br>
+                    <label for="destination1">destination:</label><br>
+                    <input type="text" name="destination" id="destination1"><br>
 
-                    <label>adjective:</label><br>
-                    <input type="text" name="adjective2"><br>
+                    <label for="adjective2">adjective:</label><br>
+                    <input type="text" name="adjective2" id="adjective2"><br>
 
-                    <label>noun:</label><br>
-                    <input type="text" name="noun1"><br>
+                    <label for="noun1">noun:</label><br>
+                    <input type="text" name="noun1" id="noun1"><br>
 
-                    <label>verb:</label><br>
-                    <input type="text" name="verb"><br>
+                    <label for="verb1">verb:</label><br>
+                    <input type="text" name="verb" id="verb1"><br>
                     <div class="button">
                         <input type="submit" value="create" class="finish">
                     </div>
@@ -51,5 +53,28 @@
             </div>
         </div>
     </main>
+    <section id="overlay" class="hidden">
+        <div class="circle"></div>
+        <!-- <article>
+            <div class="categories">
+                <article>
+                    <h3>Repairs:</h3>
+                </article>
+                <article>
+                    <h3>Fortifies:</h3>
+                </article>
+            </div>
+            <img src="images/lotionbottle.png" alt="lotion bottle">
+            <div class="circle"></div>
+            <div class="categories2">
+                <article>
+                    <h3>Natural Ingredients:</h3>
+                </article>
+                <article>
+                    <h3>Fortifies:</h3>
+                </article>
+            </div>
+        </article> -->
+    </section>
 </body>
 </html>
