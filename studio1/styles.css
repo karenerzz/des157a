@@ -1,26 +1,38 @@
-body {
+*{
+    /* padding included in element calculations */
+    box-sizing: border-box;
+}
+body {  
+    background-color: #FFC3C3;
+}
+#container{
     display: flex;
     padding-top:30px;
     width: 1200px;
     margin: auto;
-    justify-content: space-around;
-    background-color: #FFDCDC;
-    overflow: hidden;
-
+    justify-content: space-evenly;
+    align-items: center;
 }
-
-.column1{
+header{
     position:relative;
+    width: 500px;
+    height: 700px;
+    border-radius: 15px;
+    background-color: rgb(255,255,255, 0.4);
 }
-
+header img {
+    position:relative;
+    top: 1px;
+    width: 85%;
+}
 header h1{
-    position: relative;
-    bottom: 580px;
+    position: absolute;
+    top: 280px;
     left: 60px;
     font-family: 'Itim', cursive;
     color: white;
     text-align: center;
-    font-size: 6rem;
+    font-size: 5rem;
     text-shadow: 1px 0px 9px #DECECE;
 }
 
@@ -38,11 +50,11 @@ input {
     box-sizing: border-box;
     border: none;
     border-radius: 15px;
-    background-color: #FFDCDC;
+    background-color: rgb(255,255,255, 0.5);
 }
 
 
-.backgroundBox {
+/* .backgroundBox {
     position: relative;
     padding:70px;
     width: 300px;
@@ -50,23 +62,29 @@ input {
     background-color: #FFC9C9;
     border-radius: 15px;
     box-shadow: 1px 0px 9px #DECECE;
-}
+} */
 
 .insideInfo{
-    position: absolute;
-    bottom: 45px;
+    background-color: rgb(255,255,255, 0.4);
+    padding: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 15px;
+    /* position: absolute;
+    right: 100px;
+    bottom: 45px; */
 }
 
 h2 {
     font-family: 'Work Sans', sans-serif;
     text-align: center;
-    color: white;
+    color: #FE9F9F;
 }
 
 label {
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
-    color: white;
+    color: #FE9F9F;
     font-size: 0.9rem;
 }
 
@@ -90,31 +108,91 @@ label {
 }
 
 /* madlib results */
-#overlay {
+.container2{
     position: absolute;
-    background-color: #FFDCDC;
     top: 0;
     left:0;
-    width:1200vw;
-    height:750vh
+}
+#overlay {
+    position: relative;
+    background-color: #FFC3C3;
+    width:1200px;
+    height:750px;
 }
 
 .hidden {
-    visibility: hidden;
-    opacity: 0;
+    display:none;
+    /* visibility: hidden;
+    opacity: 0; */
 }
 
 .showing {
-    visibility: visible;
-    opacity: 1;
+    display:block;
+    /* visibility: visible; */
+    /* opacity: 1; */
 }
 
 .circle {
     position: absolute;
     top: 130px;
-    left: 400px;
-    background-color: #FFC9C9;
+    left: 350px;
+    background-color: #FFE4E4;
     width: 500px;
     height: 500px;
     border-radius: 300px;
 }
+.bottle {
+    position: absolute;
+    top: 130px;
+    left: 350px;
+    width: 500px;
+    height:500px;
+    background-image: url(images/lotionbottle.png);
+}
+
+#myAdjNumSpace{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    position:absolute;
+    top:50px;
+    left:80px;
+    text-align: center;
+}
+
+article h1{
+    background-color: #FE9F9F;
+}
+
+#myVerb1Space{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    position:absolute;
+    top:50px;
+    right:80px;
+    text-align: center;
+}
+
+#myNoun1Space {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.9rem;
+    color: white;
+    width: 300px;
+    position: absolute;
+    bottom:90px;
+    left:80px;
+    text-align: center;
+
+}
+
+#myDesAdjSpace{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    width: 300px;
+    position: absolute;
+    bottom:50px;
+    right:60px;
+    text-align: center;
+
+}
+
+

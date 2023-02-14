@@ -19,62 +19,74 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <header class="column1">
-        <img src="images/lotion.png" alt="lotion">
-        <h1>Create Your<br>
-         Lotion</h1>
-    </header>
-    <main class="column2">
-        <div class="backgroundBox">
+    <div id="container">
+        <header>
+            <img src="images/lotion.png" alt="lotion">
+            <h1>Create Your<br>
+                Lotion</h1>
+        </header>
+        <main>
             <div class="insideInfo">
                 <h2>develop your formula</h2>
-                <form>
+                <form id="myForm">
                     <label for="adjective1">adjective:</label><br>
-                    <input type="text" name="adjective1" id="adjective1"><br>
+                    <input type="text" name="adjective1" id="adjective1" required><br>
 
                     <label for="number1">number:</label><br>
-                    <input type="text" name="number" id="number1"><br>
-
-                    <label for="destination1">destination:</label><br>
-                    <input type="text" name="destination" id="destination1"><br>
-
-                    <label for="adjective2">adjective:</label><br>
-                    <input type="text" name="adjective2" id="adjective2"><br>
-
-                    <label for="noun1">noun:</label><br>
-                    <input type="text" name="noun1" id="noun1"><br>
+                    <input type="text" name="number" id="number1" required><br>
 
                     <label for="verb1">verb:</label><br>
-                    <input type="text" name="verb" id="verb1"><br>
+                    <input type="text" name="verb" id="verb1" required><br>
+
+                    <label for="noun1">noun:</label><br>
+                    <input type="text" name="noun1" id="noun1" required><br>
+
+                    <label for="destination1">destination:</label><br>
+                    <input type="text" name="destination" id="destination1" required><br>
+
+                    <label for="adjective2">adjective:</label><br>
+                    <input type="text" name="adjective2" id="adjective2" required><br>
+
+
                     <div class="button">
                         <input type="submit" value="create" class="finish">
                     </div>
                 </form>
             </div>
-        </div>
-    </main>
-    <section id="overlay" class="hidden">
-        <div class="circle"></div>
-        <!-- <article>
-            <div class="categories">
-                <article>
-                    <h3>Repairs:</h3>
-                </article>
-                <article>
-                    <h3>Fortifies:</h3>
-                </article>
-            </div>
-            <img src="images/lotionbottle.png" alt="lotion bottle">
+        </main>
+    </div>
+    <div class="container2">
+        <section id="overlay" class="hidden">
             <div class="circle"></div>
-            <div class="categories2">
-                <article>
-                    <h3>Natural Ingredients:</h3>
-                </article>
-                <article>
-                    <h3>Fortifies:</h3>
-                </article>
-            </div>
-        </article> -->
+            <div class="bottle"></div>
+
+            <article id="myAdjNumSpace">
+                <h1 id="myAdjNum">Introducing Adjective <br>
+                Number</h1>
+                <h3> From now on, embrace the beauty <br>
+                    of your skin with our newest lotion<br>
+                    product.</h3>
+            </article>
+
+            <article id="myVerb1Space">
+                <h1 id="myVerb1">Blank</h1>
+                <h3>With our ground breaking technology,<br>
+                    the lotion strengthens the skin and <br>
+                    produces more hydration.</h3>
+            </article>
+
+            <article id="myNoun1Space">
+                <h1>Repairs</h1>
+                <h3 id="myNoun1"> Scientifically proven to reduce<br>
+                the appearance of blank on your skin.</h3>
+            </article>
+
+            <article id="myDesAdjSpace">
+                <h1>The Natural Ingredients</h1>
+                <h3 id="myDesAdj">Strengthens the skin and <br>
+                produces more hydration to the skin.</h3>
+            </article>
     </section>
+    </div>
 </body>
 </html>
