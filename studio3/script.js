@@ -12,7 +12,7 @@
             document.getElementById('overlay').className = 'hidden';
 
         })
-    })
+    });
 
     const startGame = document.getElementById('startgame');
         const player = document.getElementById('player');
