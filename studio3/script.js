@@ -36,6 +36,9 @@
 
         };
 
+        const rollFinish = new Audio('sounds/diceroll.mp3')
+        const quack = new Audio('sounds/quack.mp3')
+        const snake = new Audio('sounds/snake.mp3')
 
         startGame.addEventListener('click', function(){
             document.getElementById('overlay').className ='hidden';
@@ -78,6 +81,7 @@
             
             game.innerHTML += `<img id="dice" src="${gameData.dice[gameData.roll1-1]}">
                                 <img id="dice2" src="${gameData.dice[gameData.roll2-1]}">`;
+                                
             gameData.rollSum = gameData.roll1 + gameData.roll2;
 
             if (gameData.rollSum === 2) {
@@ -88,17 +92,20 @@
                 showCurrentScore();
                 setTimeout(setUpTurn, 2000);
                 console.log('snake eyes were rolled');
+                snake.play();
             }
             else if (gameData.roll1 === 1 || gameData.roll2 === 1) {
                 gameData.index ? (gameData.index = 0) : (gameData.index =1);
                 player.innerHTML = '<img src="images/rolledone.png">';
                 setTimeout(setUpTurn, 2000);
                 console.log('one of the two dice was a 1');
+                quack.play();
             }
 
             else {
                 gameData.score[gameData.index] = gameData.score[gameData.index] + gameData.rollSum;
                 actionArea.innerHTML = '<img id="roll" src="images/rollbutton.png" alt="roll button">';
+                rollFinish.play();
 
                 document.getElementById('roll').addEventListener('click',function(){
                     setUpTurn();
