@@ -1,0 +1,131 @@
+body {
+    margin:auto;
+    padding-top: 50px;
+    width: 1100px;
+    padding-bottom: 50px;
+}
+
+header p {
+    padding-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #B3DB72;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 30px;
+    /* background-color: #2196F3; */
+    /* padding: 30px; */
+  }
+  
+.grid-container > div {
+    background-color:#F6F6F6;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border-radius: 15px;
+    
+}
+.item1 {
+    height: 150px;
+    grid-column: 1 / 7;
+}
+
+.item1 h2{
+    margin: 30px;
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    color: #B3DB72;
+}
+
+.item1 p{
+    margin: 30px;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    color: #828282;
+}
+
+.item2 {
+    height: 300px;
+    grid-column: 1 / 4;
+}
+
+.item2 h2{
+    margin: 30px;
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    color: #B3DB72;
+}
+
+.item2 p{
+    margin: 30px;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    color: #828282;
+}
+.item3 {
+    height: 300px;
+    grid-column: 4 / 7;
+}
+
+.item3 h2{
+    margin: 30px;
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    color: #B3DB72;
+}
+
+.item3 p{
+    margin: 30px;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    color: #828282;
+}
+
+.item4 {
+    height: 270px;
+    grid-column: 1 / 4;
+}
+
+.item4 h2{
+    margin: 30px;
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    color: #B3DB72;
+}
+
+.item4 p{
+    margin: 30px;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    color: #828282;
+}
+
+.item5 {
+    height: 270px;
+    grid-column: 4 / 7;
+}
+
+.item5 h2{
+    margin: 30px;
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    color: #B3DB72;
+}
+
+.item5 p{
+    margin: 30px;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    color: #828282;
+}

@@ -71,6 +71,7 @@
             gameData.roll1 = Math.floor(Math.random() * 6) + 1;
             gameData.roll2 = Math.floor(Math.random() * 6) + 1;
 
+
     
             setTimeout(addSlot, 2000);
             
