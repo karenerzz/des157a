@@ -1,0 +1,248 @@
+body {
+    width: 1100px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+#left{
+    padding-top: 10px;
+    display: flex;
+    width: 500px;
+}
+#help {
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    font-family:'Inter', sans-serif;
+
+}
+#right{
+    /* background-color: brown; */
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    font-family:'Inter', sans-serif;
+    font-weight: 600;
+}
+
+#overlay {
+    position: absolute;
+    background-color:rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    font-family:'Inter', sans-serif;
+}
+
+#overlay article {
+    box-sizing: border-box;
+    background-color:#fff;
+    border-radius: 15px;
+    padding:50px;
+    width:50vw;
+    height: 70vh;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow-y: scroll;
+}
+
+#startgame {
+    position: relative;
+    top: 100px;
+    left: 35%;
+    padding: 15px;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius: 100px;
+    border:1px solid black;
+    background-color: #fff;
+    font-family:'Inter', sans-serif;
+}
+
+#close {
+    position: relative;
+    top: 100px;
+    left: 43%;
+    padding: 15px;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius: 100px;
+    border:1px solid black;
+    background-color: #fff;
+    font-family:'Inter', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+#player1score {
+    position: relative;
+    width: 140px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#p1head {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+#player2score {
+    position: relative;
+    width: 140px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#p2head {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+main {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#player {
+    /* background-color: aqua; */
+    width: 370px;
+    height: 430px;
+}
+
+#game {
+    position: relative;
+    /* background-color: red; */
+    width: 630px;
+    height: 430px;
+}
+
+#machine {
+    position: absolute;
+    top: 29px;
+    left: 45px;
+    z-index: 0;
+} 
+
+#roll {
+    position: absolute;
+    bottom: 30px;
+    left: 120px;
+    z-index: 1;
+}
+
+#window{
+    position: absolute;
+    top: 75px;
+    left: 205px;
+    z-index:1;
+    /* overflow: hidden; */
+}
+
+#window2 {
+    position: absolute;
+    top: 75px;
+    right: 160px;
+    z-index:1;
+}
+
+
+#dice {
+    position: absolute;
+    top: 150px;
+    left:240px;
+    z-index:1;
+}
+#actions {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    padding-top: 70px;
+}
+
+#restart {
+    padding: 15px;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius: 100px;
+    border:1px solid black;
+    background-color: #fff;
+    font-family:'Inter', sans-serif;
+    font-weight: 500;
+}
+
+#skip {
+    padding: 15px;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius: 100px;
+    border:1px solid black;
+    background-color: #fff;
+    font-family:'Inter', sans-serif;
+    font-weight: 500;
+}
+
+#duck {
+    position: relative;
+    left: 100px;
+}
+
+
+#dice2 {
+    position: absolute;
+    top: 150px;
+    right:180px;
+    z-index:1;
+}
+
+#score1{
+   text-align:center; 
+}
+#score2{
+    text-align:center; 
+ }
+
+#scroll {
+    position: absolute;
+    top: 150px;
+    left: 235px;
+    z-index: 1;
+}
+#scroll2 {
+    position: absolute;
+    top: 150px;
+    left: 380px;
+    z-index: 1;
+}
+
+#caption {
+    position:absolute;
+    bottom: 50px;
+    margin-left:120px;
+    margin-bottom: 50px;
+    font-family:'Inter', sans-serif;
+}
