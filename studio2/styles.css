@@ -50,7 +50,7 @@ h1 {
     100% {
         opacity: 1;
     }
-    
+
 }
 
 #picContainer1 {
@@ -60,29 +60,19 @@ h1 {
     position: absolute;
     top: 40px;
     left: 250px;
-    /* background: url(images/pic1.jpg); */
-}
-
-#grandpa1 { 
-    display:block;
-    opacity:1;
-    transition:opacity 1s;
+    background: url(images/pic1.jpg);
 }
 
 #grandpa2 {
-    position:absolute;
-    top:0;
-    left:0;
     display:block;
-    opacity:0;
-    transition:opacity 1s;
+    animation: fadeOut 300s;
 }
 
-/* #grandpa2:hover {
+#grandpa2:hover {
     animation-name: fadeIn;
     animation-duration: 0.2s;
     animation-timing-function: ease-out;
-} */
+}
 
 @keyframes fadeOut {
     0% {
@@ -100,23 +90,19 @@ h1 {
     display:block;
     width: 190px;
     height: 354px;
+    background: url(images/grandma1.jpg);
 }
 
-#grandma1 { 
-    display:block;
-    opacity:1;
-    transition:opacity 1s;
-    /* animation: fadeOut 300s; */
-}
-/* glenda added */
+
 #grandma2 {
-    position:absolute;
-    top:0;
-    left:0;
     display:block;
-    opacity:0;
-    transition:opacity 1s;
-    /* animation: fadeOut 300s; */
+    animation: fadeOut 300s;
+}
+
+#grandma2:hover {
+    animation-name: fadeIn;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-out;
 }
 
 #picContainer3 {
@@ -125,32 +111,19 @@ h1 {
     position: absolute;
     top: 40px;
     left: 260px;
-    /* background: url(images/mom1.jpg); */
-}
-
-#mom1 { 
-    display:block;
-    opacity:1;
-    transition:opacity 1s;
-    /* animation: fadeOut 300s; */
+    background: url(images/mom1.jpg);
 }
 
 #mom2 {
     display:block;
-    position:absolute;
-    top:0;
-    left:0;
-    display:block;
-    opacity:0;
-    transition:opacity 1s;
-    /* animation: fadeOut 300s; */
+    animation: fadeOut 300s;
 }
 
-/* #mom2:hover {
+#mom2:hover {
     animation-name: fadeIn;
     animation-duration: 0.2s;
     animation-timing-function: ease-out;
-} */
+}
 
 #picContainer4 {
     width: 200px;
@@ -158,30 +131,19 @@ h1 {
     position: absolute;
     top: 40px;
     right: 260px;
-
-}
-#dad1 { 
-    display:block;
-    opacity:1;
-    transition:opacity 1s;
-    /* animation: fadeOut 300s; */
+    background: url(images/dad1.jpg);
 }
 
 #dad2 {
     display:block;
-    position:absolute;
-    top:0;
-    left:0;
-    display:block;
-    opacity:0;
-    transition:opacity 1s;
+    animation: fadeOut 300s;
 }
 
-/* #dad2:hover {
+#dad2:hover {
     animation-name: fadeIn;
     animation-duration: 0.2s;
     animation-timing-function: ease-out;
-} */
+}
 
 #picContainer5 {
     width: 247px;
@@ -189,28 +151,19 @@ h1 {
     position: absolute;
     top: 40px;
     right: 320px;
+    background: url(images/sisterthin.jpg);
 }
-#sisterthin{
-    display:block;
-    opacity:1;
-    transition:opacity 1s;
 
-}
 #sisterthick {
     display:block;
-    position:absolute;
-    top:0;
-    left:0;
-    display:block;
-    opacity:0;
-    transition:opacity 1s;
+    animation: fadeOut 300s;
 }
 
-/* #sisterthick:hover {
+#sisterthick:hover {
     animation-name: fadeIn;
     animation-duration: 0.2s;
     animation-timing-function: ease-out;
-} */
+}
 
 #next {
     position: absolute;
@@ -219,7 +172,7 @@ h1 {
     background-color: #D24031;
     color:white;
     border:1px solid #D24031;
-    border-radius: 10px;
+    border-radius: 30px;
     padding:10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -240,7 +193,7 @@ h1 {
     background-color: white;
     color:#D24031;
     border:1px solid #D24031;
-    border-radius: 10px;
+    border-radius: 30px;
     padding:10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -266,13 +219,12 @@ h1 {
 #coffee{
     position: absolute;
     top: 40px;
-    left: 10px;
-    border-radius: 15px;
+    left: 50px;
     /* background-color: aqua; */
     border-top: 2px solid #D24031;
     border-left: 2px solid #D24031;
     border-bottom: 2px solid #D24031;
-    width: 350px;
+    width: 311px;
     height: 364px;
 }
 
@@ -283,26 +235,25 @@ h1 {
     font-size: 0.8rem;
     position: absolute;
     bottom: 10px;
-    padding: 30px;
-    width: 200px;
+    padding: 15px;
+    width: 190px;
 }
 #coffee article img {
     position: relative;
     width: 80%;
     top: 20px;
-    right: 60px;
+    right: 40px;
 }
 
 #flatRice{
     position: absolute;
     top: 40px;
     left:530px;
-    border-radius: 15px;
     /* background-color: aqua; */
     border-top: 2px solid #D24031;
     border-right: 2px solid #D24031;
     border-bottom: 2px solid #D24031;
-    width: 350px;
+    width: 311px;
     height: 364px;
 }
 
@@ -315,26 +266,24 @@ h1 {
     position: absolute;
     bottom: 25px;
     right: 15px;
-    padding: 15px;
-    width: 220px;
+    /* padding: 15px; */
+    width: 190px;
 }
 #flatRice article img {
     position: relative;
-    width: 70%;
-    left: 60px;
-    top: 10px;
+    width: 80%;
+    left: 50px;
 }
 
 #fruit{
     position: absolute;
     top: 40px;
-    left: 1210px;
-    border-radius: 15px;
+    left: 1250px;
     /* background-color: aqua; */
     border-top: 2px solid #D24031;
     border-left: 2px solid #D24031;
     border-bottom: 2px solid #D24031;
-    width: 350px;
+    width: 311px;
     height: 364px;
 }
 
@@ -345,8 +294,8 @@ h1 {
     font-size: 0.8rem;
     position: absolute;
     bottom: 10px;
-    padding: 25px;
-    width: 210px;
+    padding: 15px;
+    width: 190px;
 }
 #fruit article img {
     position: relative;
@@ -358,13 +307,12 @@ h1 {
 #nuggets{
     position: absolute;
     top: 40px;
-    left:1730px;
-    border-radius: 15px;
+    left:1720px;
     /* background-color: aqua; */
     border-top: 2px solid #D24031;
     border-right: 2px solid #D24031;
     border-bottom: 2px solid #D24031;
-    width: 350px;
+    width: 311px;
     height: 364px;
 }
 
@@ -377,8 +325,8 @@ h1 {
     position: absolute;
     bottom: 25px;
     right: 15px;
-    padding: 15px;
-    width: 200px;
+    /* padding: 15px; */
+    width: 190px;
 }
 #nuggets article img {
     position: relative;
@@ -389,13 +337,12 @@ h1 {
 #mango{
     position: absolute;
     top: 40px;
-    left: 2470px;
-    border-radius: 15px;
+    left: 2530px;
     /* background-color: aqua; */
     border-top: 2px solid #D24031;
     border-left: 2px solid #D24031;
     border-bottom: 2px solid #D24031;
-    width: 350px;
+    width: 311px;
     height: 364px;
 }
 
@@ -406,8 +353,8 @@ h1 {
     font-size: 0.8rem;
     position: absolute;
     bottom: 10px;
-    padding: 20px;
-    width: 220px;
+    padding: 15px;
+    width: 190px;
 }
 #mango article img {
     position: relative;
@@ -417,10 +364,6 @@ h1 {
 }
 
 .hidden {
-    display: none;
-}
-
-.hidebutton{
     display: none;
 }
 
@@ -445,27 +388,4 @@ h1 {
     color:white;
     border:1px solid #D24031;
 
-}
-
-.dot {
-    margin: 15px;
-    background-color: #D24031;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-    display: inline-block;
-}
-
-#slide2 {
-    background-color: #d241316f;
-}
-
-#slide3 {
-    background-color: #d241316f;
-}
-
-#indicator {
-    position: relative;
-    top: 45px;
-    text-align: center;
 }
