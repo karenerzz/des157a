@@ -129,3 +129,64 @@ header p {
     text-align: left;
     color: #828282;
 }
+
+/* usertest */
+section {
+    position: relative;
+}
+#container{
+    position: absolute;
+    width: 400px;
+    height: 650px;
+    background-color: #F6F6F6;
+    border-radius: 20px;
+    left: 10%;
+}
+article{
+    width: 300px;
+    padding: 30px;
+    padding-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: smaller;
+    color:#828282;
+}
+article h2{
+    color: #5A5A5A;
+}
+
+
+ul {
+    padding:0;
+    list-style: none;
+}
+
+#container2{
+    position: absolute;
+    right: 10%;
+    width: 450px;
+    height: 650px;
+    border-radius: 20px;
+
+}
+
+#jaclyn {
+    position: absolute;
+    border-radius: 15px;
+    top: 5%;
+    left: 0;
+
+}
+#afrah {
+    position: absolute;
+    border-radius: 15px;
+    top: 5%;
+    right: 0;
+
+}
+#testscript {
+    position: absolute;
+    border-radius: 15px;
+    right: 0;
+    bottom: 5%;
+
+}
