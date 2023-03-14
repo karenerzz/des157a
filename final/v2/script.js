@@ -2,7 +2,18 @@
     'use strict';
     console.log('reading js')
     
-    
+    //usability testing
+    document.querySelector("#continue").addEventListener('click', function(){
+        document.getElementById('testing').className = 'hidden';
+    })
+
+    //info overlay
+    document.querySelector("#info").addEventListener('click', function(){
+        document.getElementById('infobox').className = 'showing';
+    })
+    document.querySelector("#closeinfo").addEventListener('click', function(){
+        document.getElementById('infobox').className = 'hidden';
+    })
 
     // // slideshow of photos
     let currentContainer = 1;
