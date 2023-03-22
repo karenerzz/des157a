@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+
+    <title>filled with love.</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>filled with love.</h1>
+        <button id="info">i</button>
+    </header>
+    <main>
+        <div id="container1">
+            <div id="picContainer1">
+                <img id="grandpa1" src="images/pic1.jpg" alt="grandma outline">
+                <img id="grandpa2" src="images/pic2.jpg" alt="photo outline">
+            </div>
+            <div id="picContainer2">
+                <img id="grandma1" src="images/grandma1.jpg" alt="grandma outline">
+                <img id="grandma2" src="images/grandma2.jpg" alt="grandma outline">
+            </div>
+        </div>
+
+        <div id="container2">
+            <div id="picContainer3">
+                <img id="mom1" src="images/mom1.jpg" alt="mom outline">
+                <img id="mom2" src="images/mom2.jpg" alt="mom outline">
+            </div>
+            <div id="picContainer4">
+                <img id="dad1" src="images/dad1.jpg" alt="dad outline">
+                <img id="dad2" src="images/dad2.jpg" alt="dad outline">
+            </div>
+        </div>
+
+        <div id="container3">
+            <div id="picContainer5">
+                <img id="sisterthin" src="images/sisterthin.jpg" alt="sister outline">
+                <img id="sisterthick" src="images/sisterthick.jpg" alt="sister outline">
+            </div>
+        </div>   
+        
+        <section id ="coffee" class="hidden overlay">
+            <article>
+                <img src="images/coffee.png" alt="coffee candy">
+                <h2>kopiko coffee candy</h2>
+                <p>Every family gathering or every time I visited, my grandpa would give me this specific coffee candy. When he passed at the end of last year, it made me realize how often he reached out to me through the use of food. He was also the main inspiration for this project.</p>
+                <button id="closeGrandpa" class="close">close</button>
+            </article>
+        </section>
+
+        <section id ="flatRice" class="hidden overlay">
+            <article>
+                <img src="images/rice.png" alt="flat rice dough">
+                <h2>banh nam</h2>
+                <p>There’s this one specific Vietnamese dish that was always one of my favorites. There’s no name for it in the English language but it is a steamed flat rice dough with shrimp and pork sprinkled on top. I would always get this dish from my grandma.</p>
+                <button id="closeGrandma" class="close">close</button>
+            </article>
+        </section>
+
+        <section id ="fruit" class="hidden overlay">
+            <article>
+                <img src="images/fruit.png" alt="sliced apples in a bowl">
+                <h2>sliced fruit</h2>
+                <p>Throughout high school and even now when I visit home, my mom would always cut up fruit and bring it to me while I do homework. She believed eating fruit was good for your physical health and a good way to get your fiber in but it would also give you the energy to do work.</p>
+                <button id="closeMom" class="close">close</button>
+            </article>
+        </section>
+
+        <section id ="nuggets" class="hidden overlay">
+            <article>
+                <img src="images/nuggets.png" alt="chicken nuggets">
+                <h2>chicken nuggets</h2>
+                <p>My dad would always be the person that would give me food outside of Vietnamese food. In my memory, he would always ask if I wanted chicken nuggets from McDonalds or we would get it after class when he would pick me up.</p>
+                <button id="closeDad" class="close">close</button>
+            </article>
+        </section>
+
+        <section id ="mango" class="hidden overlay">
+            <article>
+                <img src="images/mango.png" alt="mango sago">
+                <h2>mango sago</h2>
+                <p>Over quarantine, me and my sister craved a lot of milk tea drinks as we were deprived of it during shelter in place. My most significant memory was when I had covid and wanted to drink mango sago so my sister brought me the drink and left it outside my door. </p>
+                <button id="closeSister" class="close">close</button>
+            </article>
+        </section>
+
+    </main>
+    <div id="indicator">
+        <span id="slide1" class="dot"></span>
+        <span id="slide2" class="dot"></span>
+        <span id="slide3" class="dot"></span>
+    </div>
+    <div id="buttonContainer">
+        <button id="previous">previous</button> 
+        <button id="next">next</button>
+    </div>
+
+    <section id="infobox" class="hidden">
+        <article>
+            <h2>filled with love.</h2>
+            <p>Growing up, my family was never the affectionate type and never really expressed their emotions clearly. Instead of the traditional love languages that are known in today’s generation, my family’s love language was giving out snacks and food. It was a way for them to show that they cared for you by making sure you were full and fed. The photos represent the members of my family that have carried this out and that have corresponding foods that my memory associates them with.</p>
+
+            <button id="closeinfo">close</button>
+        </article>
+
+    </section>
+
+
+</body>
+</html>
